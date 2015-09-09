@@ -14,11 +14,11 @@ def run():
         distribution_type=parameter_database.get_string('distribution_type')
         parameter_name=parameter_database.get_string('name')
         if distribution_type=='uniform':
-            parameter_range=parameter_database.get_string('range').split(',')
+            parameter_range=parameter_database.get_array_double('range')
             parameter_list.append(puq.UniformParameter('param_'+str(p),
                                                        parameter_name,
-                                                       min=float(parameter_range[0]),
-                                                       max=float(parameter_range[1])))
+                                                       min=parameter_range[0],
+                                                       max=parameter_range[1]))
         elif distribution_type=='normal':
             parameter_mean=parameter_database.get_double('mean')
             parameter_standard_deviation=parameter_database.get_double('standard_deviation')
