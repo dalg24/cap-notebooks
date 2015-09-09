@@ -2,13 +2,13 @@
     <params> 2 </params>
     <param_0>
         <name> device.material_properties.electrode_material.void_volume_fraction </name>
-        <distribution_type>   normal </distribution_type>
-        <mean>                  0.67 </mean>
-        <standard_deviation>    0.03 </standard_deviation>
+        <distribution_type>      normal </distribution_type>
+        <mean>                     0.67 </mean>
+        <standard_deviation>       0.03 </standard_deviation>
     </param_0>
     <param_1>
         <name> device.material_properties.separator_material.void_volume_fraction </name>
-        <distribution_type>    uniform </distribution_type>
-        <range>              0.65,0.75 </range>
+        <distribution_type>     uniform </distribution_type>
+        <range>              0.65, 0.75 </range>
     </param_1>
 </uq>
