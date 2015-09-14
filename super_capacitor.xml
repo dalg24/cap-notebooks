@@ -100,12 +100,6 @@
             <heat_capacity>                    0.0       </heat_capacity>                  <!-- joule per kilogram kelvin -->
             <thermal_conductivity>             0.0       </thermal_conductivity>           <!-- watt per meter kelvin -->
         </electrolyte>
-
-        <anode_collector_material_id>   4 </anode_collector_material_id>
-        <anode_electrode_material_id>   1 </anode_electrode_material_id>
-        <separator_material_id>         2 </separator_material_id>
-        <cathode_electrode_material_id> 3 </cathode_electrode_material_id>
-        <cathode_collector_material_id> 5 </cathode_collector_material_id>
     </material_properties>
 
     <boundary_values>
