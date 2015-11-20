@@ -1,10 +1,10 @@
 <uq>
-    <method> LatinHypercubeSampling </method>
-    <samples> 20 </samples>
+    <method> SmolyakSparseGrid </method>
+    <level> 2 </level>
 
     <test_program>
         <executable> ./pycap_measure_impedance_spectrum.py </executable>
-        <description> pycap electrochemical impedance spectroscopy </description>
+        <description> electrochemical impedance spectroscopy on a supercapacitor model </description>
     </test_program>
 
     <host>
