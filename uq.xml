@@ -1,4 +1,18 @@
 <uq>
+    <method> SmolyakSparseGrid </method>
+    <level> 2 </level>
+
+    <test_program>
+        <executable> ./pycap_measure_impedance_spectrum.py </executable>
+        <description> electrochemical impedance spectroscopy on a supercapacitor model </description>
+    </test_program>
+
+    <host>
+        <type> Interactive </type>
+        <cpus> 1 </cpus>
+        <cpus_per_node> 32 </cpus_per_node>
+    </host>
+
     <params> 2 </params>
     <param_0>
         <name> device.material_properties.electrode_material.void_volume_fraction </name>
