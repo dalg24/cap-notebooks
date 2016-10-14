@@ -1,0 +1,74 @@
+\documentclass{beamer}
+\usetheme[secheader]{pecostalk}
+
+\usepackage{graphicx}
+\usepackage{parskip,amssymb,amsmath,amsthm,url}
+\usepackage{subfigure}
+\usepackage{esdiff}
+\usepackage{latexsym}
+\usepackage{verbatim}
+\usepackage{listings}
+\usepackage{tikz}
+\usetikzlibrary{arrows,plotmarks}
+
+\graphicspath{{figs/}}
+
+\date[19/10/2016]{19/20th of October, 2016}
+\title{awesome title here}
+\author[Moser, Lebrun-Grandie, Turner]{R. D. Moser, D. Lebrun-Grandie, J. Turner}
+\institute{Centre for Predictive Engineering and Computational Sciences\\
+Institute for Computational Engineering and Sciences\\
+The University of Texas at Austin\\
+\vspace{1em}
+Oak Ridge National Laboratory}
+
+\newcommand{\ud}{\,\mathrm{d}}
+\newcommand{\grad}{\nabla}
+\newcommand{\Var}{\mbox{Var}}
+\newcommand{\Cov}{\mbox{Cov}}
+\newcommand{\argmin}{\mbox{argmin}}
+\newcommand{\iid}{
+  \ensuremath{
+    \stackrel{\mbox{\scriptsize{i.i.d}}}{\sim}
+  }
+}
+
+\newcommand{\norm}[1]{
+  \ensuremath{\left\| #1 \right\|}
+}
+\newcommand{\Queso}{\texttt{QUESO}}
+\newcommand{\Mpi}{\texttt{MPI}}
+\newcommand{\Gsl}{\texttt{GSL}}
+
+\renewcommand{\note}[1]{ \textcolor{red}{#1} }
+\newcommand{\Mcal}{\mathcal{M}}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+  \begin{center}
+  \end{center}
+  \vspace{0.1in}
+  \begin{columns}
+  \begin{column}{0.50\linewidth}
+  \begin{flushleft}
+  \includegraphics[width=0.30\linewidth]{ICES-secondary-logo-crop}
+  \end{flushleft}
+  \end{column}
+  \begin{column}{0.50\linewidth}
+  \begin{flushright}
+  \includegraphics[scale=0.05]{circle-logo}
+  \end{flushright}
+  \end{column}
+  \end{columns}
+\end{frame}
+
+%\input{operator}
+%\input{real_data}
+\input{supercapacitor}
+
+\begin{frame}{Questions?}
+\end{frame}
+
+\end{document}
